@@ -233,6 +233,10 @@ body {
   flex-direction: column;
   padding-bottom: 162px;
 }
+
+<!-- текст над карточками   -->
+
+
 .second__logo {
   display: flex;
   justify-content: center;
@@ -251,8 +255,11 @@ body {
 }
 .second__text_center {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center;}
+
+
+<!--  карточки -->
+
 .second__carts {
   margin-top: 43px;
   display: flex;
@@ -302,6 +309,8 @@ body {
 }
 
 <!--  registration    -->
+
+<!--  форма регистрации  переход через профиль -->
 
 
 .registration {
@@ -375,6 +384,8 @@ body {
   margin-bottom: 10px;
 }
 
+<!-- блок до футера  -->
+
 
 <!--    lab   -->
 
@@ -405,6 +416,8 @@ body {
 .lab__btn_two {
   padding: 20px 23px;
 }
+
+
 
 
 <!-- footer  -->
@@ -438,11 +451,18 @@ body {
   line-height: 16px;
   color: #FFFFFF;
 }
+
+<!--  зелёный текст -->
+
 .footer__title {
   color: #7DD42F;
   font-size: 18px;
   line-height: 21px;
 }
+
+Ссылки на соцсети
+
+
 .footer__set {
   padding: 19px 0px 38px 0px;
   width: 1200px;
