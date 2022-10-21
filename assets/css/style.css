@@ -100,6 +100,9 @@ body {
   background: #373A3C;
   border-radius: 4px;
 }
+
+<!--  меню -->
+
 .header__menu {
   display: flex;
 }
@@ -155,6 +158,10 @@ body {
   width: 96px;
   height: 28.93px;
 }
+
+
+<!-- стрелки для перелистывания  -->
+
 .first__arrow {
   width: 135px;
   height: 644px;
@@ -162,6 +169,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+<!-- основной блок в середине  -->
+
 .first__block {
   margin: 210px -565px 0px 0px;
   display: flex;
@@ -177,6 +187,9 @@ body {
     flex-wrap: wrap;
   }
 }
+
+<!--  пустой комментарий -->
+
 .first__ghost {
   height: 95px;
 }
@@ -187,6 +200,9 @@ body {
 .first__btn:not(:last-of-type) {
   margin-right: 13px;
 }
+
+<!--  вторая оболочка для основного блока -->
+
 .first__custom {
   display: flex;
   justify-content: center;
