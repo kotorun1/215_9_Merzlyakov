@@ -1,3 +1,5 @@
+<!--  обнуление стилей -->
+
 * {
   margin: 0;
   padding: 0;
@@ -11,11 +13,16 @@ a {
   text-decoration: none;
 }
 
+<!-- применение шрифта ко всему телу   -->
+
 body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
 }
+
+<!-- импорт шрифтов  -->
+
 
 @font-face {
   font-family: Roboto;
@@ -32,6 +39,8 @@ body {
   src: url(../fonts/Roboto-Bold.ttf);
   font-weight: 700;
 }
+
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -77,7 +86,10 @@ body {
 }
 .btn_grey {
   background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+
 }
+
+<!--  header -->
 
 .header {
   padding: 0px 165px;
@@ -126,6 +138,8 @@ body {
   height: 20px;
   margin-right: 9px;
 }
+
+<!-- first  -->
 
 .first {
   background: url("../img/Star-Wars-Battlefront-II-combat.png") no-repeat center center/cover;
@@ -188,6 +202,9 @@ body {
 .first__indicators:not(:last-of-type) {
   margin-right: 10px;
 }
+
+<!--second   -->
+
 
 .second {
   background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
@@ -265,6 +282,9 @@ body {
   padding: 19px 80px 20px 80px;
 }
 
+<!--  registration    -->
+
+
 .registration {
   font-family: "Roboto";
   width: 300px;
@@ -336,6 +356,9 @@ body {
   margin-bottom: 10px;
 }
 
+
+<!--    lab   -->
+
 .lab {
   background: url("../img/Rectangle.png") no-repeat center center/cover;
 }
@@ -363,6 +386,10 @@ body {
 .lab__btn_two {
   padding: 20px 23px;
 }
+
+
+<!-- footer  -->
+
 
 .footer {
   background: #373A3C;
